@@ -1,6 +1,8 @@
 [package]
 name = "rcli"
 version = "0.1.0"
+authors = ["chenzc <80132938@qq.com>"]
 edition = "2024"
 
 [dependencies]
+clap = { version = "4.5.46", features = ["cargo", "derive"] }
